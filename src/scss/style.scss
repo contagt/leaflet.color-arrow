@@ -5,6 +5,6 @@ $color-arrow-size: 25px;
     height: 0;
 
     border-bottom: $arrow-size solid red;
-    border-left: #{$arrow-size / 2} solid transparent;
-    border-right: #{$arrow-size / 2} solid transparent;
+    border-left: calc($arrow-size / 2) solid transparent;
+    border-right: calc($arrow-size / 2) solid transparent;
 }
